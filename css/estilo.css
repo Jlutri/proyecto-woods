@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@media screen and (min-width: 320px) {
+  .body {
+    background-color: #000000; } }
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center; }
+  header .nav {
+    width: 100%;
+    background-color: black;
+    margin: 10px auto; }
+    header .nav .ulnav {
+      list-style-type: none;
+      padding: 10px;
+      margin: 10px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right; }
+      header .nav .ulnav .menu {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 10px; }
+        header .nav .ulnav .menu:hover {
+          background-color: chocolate;
+          border-radius: 15%; }
+
+.section1 {
+  background-color: white;
+  display: flex; }
+  .section1 .imgsection {
+    border-radius: 50%; }
+    .section1 .imgsection .ptext {
+      margin: 10px 50px;
+      padding: 100px;
+      font-size: 2rem; }
+  .section1 .divsubtitulo {
+    background-color: white;
+    color: black; }
+
+.divmain {
+  background-color: black;
+  color: white;
+  padding: 200px;
+  border-color: white;
+  display: flex; }
+  .divmain .imgsection2 {
+    width: 300px;
+    height: 300px; }
+
+.divmain2 {
+  background-color: white;
+  padding: 200px;
+  display: flex; }
+  .divmain2 .imgsection3 {
+    width: 300px;
+    height: 300px; }
+    .divmain2 .imgsection3 .divtext2 {
+      margin: 10px; }
+
+.divmain4 {
+  background-color: white; }
+  .divmain4 .divtext {
+    text-align: center; }
+    .divmain4 .divtext .textwood {
+      font-family: 'Edu SA Beginner', cursive; }
+
+.item-a {
+  display: flex;
+  justify-content: space-around; }
+  .item-a .img1 {
+    height: 100px;
+    width: 100px; }
+
+footer {
+  background-color: #131212;
+  color: white; }
+  footer .divfooter {
+    display: flex;
+    justify-content: space-between; }
+
+.maindiseños {
+  background-color: black;
+  padding: 200px; }
+  .maindiseños .divimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .maindiseños .divimg .img4 {
+      height: 200px;
+      width: 200px;
+      border-radius: 60%; }
+
+.divbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .divbutton .bdis {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px; }
+    .divbutton .bdis:hover {
+      background-color: chocolate;
+      border-radius: 20%; }
+
+.divtext1 {
+  margin-left: 10px; }
+
+.divtext2 {
+  margin-left: 10px; }
